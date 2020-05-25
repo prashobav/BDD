@@ -1,0 +1,20 @@
+{
+  "name": "relish",
+  "version": "1.0.0",
+  "description": "ATDD for REST API development based on Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+     
+  },
+   
+  "dependencies": {
+    "assert": "^1.4.1",
+    "cross-env": "^1.0.8",
+    "cucumber": "^1.0.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "random-words": "0.0.1",
+    "request-promise": "^3.0.0"
+  }
+}
